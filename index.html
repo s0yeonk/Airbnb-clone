@@ -7,9 +7,11 @@
   <!-- CSS -->
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/main.js" defer></script>
   <title>Airbnb Clone coding</title>
 </head>
 <body>
+  <!-- 헤더 -->
   <header>
     <img id="logo" src="./image/logo.png" alt="airbnb logo">
     <div id="little-search">
@@ -33,5 +35,298 @@
       </div>
     </div>
   </header>
+  <!-- 헤더 끝 -->
+  <!-- 카테고리 -->
+  <div id="category-bar">
+    <button class="category-button" id="category-active">
+      <img src="./image/category/최고의전망.jpg" alt="최고의 전망 아이콘">
+      <div>최고의 전망</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/한옥.jpeg" alt="최고의 전망 아이콘">
+      <div>한옥</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/인기급상승.jpeg" alt="최고의 전망 아이콘">
+      <div>인기 급상승</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/서핑.jpeg" alt="최고의 전망 아이콘">
+      <div>서핑</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/통나무집.jpeg" alt="최고의 전망 아이콘">
+      <div>통나무집</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/개인실.jpeg" alt="최고의 전망 아이콘">
+      <div>개인실</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/해변바로앞.jpeg" alt="최고의 전망 아이콘">
+      <div>해변 바로 앞</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/료칸.jpeg" alt="최고의 전망 아이콘">
+      <div>료칸</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/한적한시골.jpeg" alt="최고의 전망 아이콘">
+      <div>한적한 시골</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/저택.jpeg" alt="최고의 전망 아이콘">
+      <div>저택</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/기상천외한숙소.jpeg" alt="최고의 전망 아이콘">
+      <div>기상천외한 숙소</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/멋진수영장.jpeg" alt="최고의 전망 아이콘">
+      <div>멋진 수영장</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/국립공원.jpeg" alt="최고의 전망 아이콘">
+      <div>국립공원</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/luxe.jpeg" alt="최고의 전망 아이콘">
+      <div>Luxe</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/최고의전망.jpg" alt="최고의 전망 아이콘">
+      <div>최고의 전망</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/한옥.jpeg" alt="최고의 전망 아이콘">
+      <div>한옥</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/인기급상승.jpeg" alt="최고의 전망 아이콘">
+      <div>인기 급상승</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/서핑.jpeg" alt="최고의 전망 아이콘">
+      <div>서핑</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/통나무집.jpeg" alt="최고의 전망 아이콘">
+      <div>통나무집</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/개인실.jpeg" alt="최고의 전망 아이콘">
+      <div>개인실</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/해변바로앞.jpeg" alt="최고의 전망 아이콘">
+      <div>해변 바로 앞</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/료칸.jpeg" alt="최고의 전망 아이콘">
+      <div>료칸</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/한적한시골.jpeg" alt="최고의 전망 아이콘">
+      <div>한적한 시골</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/저택.jpeg" alt="최고의 전망 아이콘">
+      <div>저택</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/기상천외한숙소.jpeg" alt="최고의 전망 아이콘">
+      <div>기상천외한 숙소</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/멋진수영장.jpeg" alt="최고의 전망 아이콘">
+      <div>멋진 수영장</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/국립공원.jpeg" alt="최고의 전망 아이콘">
+      <div>국립공원</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/luxe.jpeg" alt="최고의 전망 아이콘">
+      <div>Luxe</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/최고의전망.jpg" alt="최고의 전망 아이콘">
+      <div>최고의 전망</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/한옥.jpeg" alt="최고의 전망 아이콘">
+      <div>한옥</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/인기급상승.jpeg" alt="최고의 전망 아이콘">
+      <div>인기 급상승</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/서핑.jpeg" alt="최고의 전망 아이콘">
+      <div>서핑</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/통나무집.jpeg" alt="최고의 전망 아이콘">
+      <div>통나무집</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/개인실.jpeg" alt="최고의 전망 아이콘">
+      <div>개인실</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/해변바로앞.jpeg" alt="최고의 전망 아이콘">
+      <div>해변 바로 앞</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/료칸.jpeg" alt="최고의 전망 아이콘">
+      <div>료칸</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/한적한시골.jpeg" alt="최고의 전망 아이콘">
+      <div>한적한 시골</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/저택.jpeg" alt="최고의 전망 아이콘">
+      <div>저택</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/기상천외한숙소.jpeg" alt="최고의 전망 아이콘">
+      <div>기상천외한 숙소</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/멋진수영장.jpeg" alt="최고의 전망 아이콘">
+      <div>멋진 수영장</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/국립공원.jpeg" alt="최고의 전망 아이콘">
+      <div>국립공원</div>
+    </button>
+    <button class="category-button">
+      <img src="./image/category/luxe.jpeg" alt="최고의 전망 아이콘">
+      <div>Luxe</div>
+    </button>
+  </div>
+  <!-- 카테고리 끝 -->
+
+  <!-- 메인콘텐츠 -->
+  <main>
+    <div class="place-itmes-wrapper">
+      <div class="palce-list-item">
+        <div class="place-image-wrapper">
+          <img src="https://picsum.photos/1000/1000" alt="place image">
+          <img class="heart-icon" src="./image/heart.svg" alt="">
+        </div>
+        <div class="description-section">
+          <div class="description-section_title">lorem ipsum</div>
+          <div>lorem ipsum2</div>
+          <div>lorem ipsum 3</div>
+        </div>
+      </div>
+      <div class="palce-list-item">
+        <div class="place-image-wrapper">
+          <img src="https://picsum.photos/1000/1000" alt="place image">
+          <img class="heart-icon" src="./image/heart.svg" alt="">
+        </div>
+        <div class="description-section">
+          <div class="description-section_title">lorem ipsum</div>
+          <div>lorem ipsum2</div>
+          <div>lorem ipsum 3</div>
+        </div>
+      </div>
+      <div class="palce-list-item">
+        <div class="place-image-wrapper">
+          <img src="https://picsum.photos/1000/1000" alt="place image">
+          <img class="heart-icon" src="./image/heart.svg" alt="">
+        </div>
+        <div class="description-section">
+          <div class="description-section_title">lorem ipsum</div>
+          <div>lorem ipsum2</div>
+          <div>lorem ipsum 3</div>
+        </div>
+      </div>
+      <div class="palce-list-item">
+        <div class="place-image-wrapper">
+          <img src="https://picsum.photos/1000/1000" alt="place image">
+          <img class="heart-icon" src="./image/heart.svg" alt="">
+        </div>
+        <div class="description-section">
+          <div class="description-section_title">lorem ipsum</div>
+          <div>lorem ipsum2</div>
+          <div>lorem ipsum 3</div>
+        </div>
+      </div>
+      <div class="palce-list-item">
+        <div class="place-image-wrapper">
+          <img src="https://picsum.photos/1000/1000" alt="place image">
+          <img class="heart-icon" src="./image/heart.svg" alt="">
+        </div>
+        <div class="description-section">
+          <div class="description-section_title">lorem ipsum</div>
+          <div>lorem ipsum2</div>
+          <div>lorem ipsum 3</div>
+        </div>
+      </div>
+      <div class="palce-list-item">
+        <div class="place-image-wrapper">
+          <img src="https://picsum.photos/1000/1000" alt="place image">
+          <img class="heart-icon" src="./image/heart.svg" alt="">
+        </div>
+        <div class="description-section">
+          <div class="description-section_title">lorem ipsum</div>
+          <div>lorem ipsum2</div>
+          <div>lorem ipsum 3</div>
+        </div>
+      </div>
+      <div class="palce-list-item">
+        <div class="place-image-wrapper">
+          <img src="https://picsum.photos/1000/1000" alt="place image">
+          <img class="heart-icon" src="./image/heart.svg" alt="">
+        </div>
+        <div class="description-section">
+          <div class="description-section_title">lorem ipsum</div>
+          <div>lorem ipsum2</div>
+          <div>lorem ipsum 3</div>
+        </div>
+      </div>
+      <div class="palce-list-item">
+        <div class="place-image-wrapper">
+          <img src="https://picsum.photos/1000/1000" alt="place image">
+          <img class="heart-icon" src="./image/heart.svg" alt="">
+        </div>
+        <div class="description-section">
+          <div class="description-section_title">lorem ipsum</div>
+          <div>lorem ipsum2</div>
+          <div>lorem ipsum 3</div>
+        </div>
+      </div>
+      <div class="palce-list-item">
+        <div class="place-image-wrapper">
+          <img src="https://picsum.photos/1000/1000" alt="place image">
+          <img class="heart-icon" src="./image/heart.svg" alt="">
+        </div>
+        <div class="description-section">
+          <div class="description-section_title">lorem ipsum</div>
+          <div>lorem ipsum2</div>
+          <div>lorem ipsum 3</div>
+        </div>
+      </div>
+      <div class="palce-list-item">
+        <div class="place-image-wrapper">
+          <img src="https://picsum.photos/1000/1000" alt="place image">
+          <img class="heart-icon" src="./image/heart.svg" alt="">
+        </div>
+        <div class="description-section">
+          <div class="description-section_title">lorem ipsum</div>
+          <div>lorem ipsum2</div>
+          <div>lorem ipsum 3</div>
+        </div>
+    </div>
+    </div>
+  </main>
+  <button id="floating-map-button">
+    <span>지도 표시하기</span>
+    <img width="16px"src="./image/map-trifold.svg" alt="map icon">
+  </button>
 </body>
 </html>
