@@ -1,0 +1,115 @@
+:root{
+  --main-color:#ff385c;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button{
+  background-color: transparent;
+  border: none;
+}
+/* 헤더 */
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px;
+  height: 80px;
+  align-items: center;
+  box-shadow: rgb(0 0 0 / 8%) 0 1px 0;
+}
+#little-search{
+  display: flex;
+  padding: 0 8px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 48px;
+  height: 48px;
+  box-sizing: border-box;
+  min-width: 330px;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 /5%);
+  cursor: pointer;
+}
+#little-search:hover{
+  box-shadow: 0 2px 4px rgba(0,0,0,0.18);
+  transition: all .2s ease-in;
+}
+#little-search *{
+  cursor: pointer; /* little-search 안의 모든 요소 선택자 */
+}
+#little-search button{
+  display: block;
+  flex-shrink: 0;
+  padding: 0 16px;
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34,34,34);
+}
+#little-search button:nth-of-type(3){
+  color: #717171;
+}
+#logo{
+  height: 64px;
+  cursor: pointer;
+}
+.divider{
+  display: block;
+  flex-shrink: 0;
+  flex-basis: 1px;
+  height: 24px;
+  background-color: #ddd;
+}
+.maginfiying-glass-wrapper{
+  background-color: var(--main-color);
+  flex-basis: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0; /*줄어들지 않음*/
+  align-items: center;
+  border-radius: 50%;
+}
+.maginfiying-glass-icon{
+  width: 12px;
+}
+#header-right-section{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.do-airbnb{
+  border-radius: 22px;
+  padding:12px;
+  font-size: 14px;
+  color: #222;
+  font-weight: 600;
+  cursor: pointer;
+}
+.do-airbnb:hover{
+  background-color: #f7f7f7;
+}
+.global-btn{
+  display: flex;
+  align-items: center;
+  padding: 5px 12px;
+  border-radius: 22px;
+}
+.global-btn:hover{
+  background-color: #f7f7f7;
+}
+.profile-section{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 5px 5px 5px 12px ;
+  border: 1px solid #ddd;
+  border-radius: 21px;
+  cursor: pointer;
+}
+.profile-section:hover{
+  box-shadow: 0 2px 4px rgba(0,0,0,0.18);
+  transition: all .2s ease-in;
+}
